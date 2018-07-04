@@ -118,7 +118,8 @@ import LocalizedStrings from 'react-native-localization';
 // CommonJS syntax
 // let LocalizedStrings  = require ('react-native-localization');
 
-let strings = new LocalizedStrings({
+//to export it into other file
+export let strings = new LocalizedStrings({
   "en-US":{
     how:"How do you want your egg today?",
     boiledEgg:"Boiled egg",
